@@ -1,0 +1,24 @@
+{
+  "name": "category",
+  "plural": "categories",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "category-name-default"
+    },
+    "description": {
+      "type": "string",
+      "default": "category-description-default"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

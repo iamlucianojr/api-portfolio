@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "category": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
