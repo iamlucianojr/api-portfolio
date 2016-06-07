@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "plural": "porfolios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "portfolio-title-default"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "portfolio-description-default"
+    },
+    "url": {
+      "type": "string",
+      "default": "portfolio-url-default"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

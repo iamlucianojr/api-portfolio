@@ -35,5 +35,9 @@
   "category": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "portfolio": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
